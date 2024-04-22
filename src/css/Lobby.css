@@ -1,0 +1,47 @@
+.LobbyWrapper {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #1f304a;
+  color: white;
+}
+
+.LobbyHeader {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.LobbyName {
+  width: 100%;
+  text-align: center;
+  background-color: #111a29;
+  font-size: 30px;
+}
+
+.LobbyJugadoresTitle {
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+.LobbyJugadores {
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.LobbyIniciar {
+  display: flex;
+  height: 70%;
+  align-items: center;
+  justify-content: center;
+}
+
+.LobbyButton {
+  margin-top: 20px;
+  font-size: 18px;
+  width: 100px;
+  height: 40px;
+}

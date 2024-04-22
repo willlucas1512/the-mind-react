@@ -1,0 +1,72 @@
+.WrapperSection {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  color: white;
+  background-color: #1f304a;
+}
+
+
+.InfoSection {
+  font-size: 32px;
+  width: 100%;
+  height: 15%;
+}
+
+.InfoSection_vidas {
+  display: inline-block;
+  text-align: left;
+  width: calc(50% - 20px);
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.InfoSection_cartas {
+  display: inline-block;
+  width: calc(50% - 20px);
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 20px;
+
+}
+
+
+.MesaSection {
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MesaValor {
+  font-size: 150px;
+}
+
+
+.ManoSection {
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Carta {
+  background-color: #3f6299;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  width: 100px;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.CartaText {
+  font-size: 42px;
+}
+
+.Carta:hover {
+  background-color: #6498ed;
+  cursor: pointer;
+}
